@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Cuestionario</title>
+</head>
+<body>
+   
+    <h1>
+        Bienvenido al Cuestionario de la historia argentina
+    </h1>
+
+    <h3 id ="enunciado">
+        Este cuestionario se compone de 5 preguntas. Para aprobar debes contestar satisfactoriamente 3 de las 5 preguntas. ¡¡¡BUENA SUERTE!!!
+    </h3>
+    
+    <form action="noimporta" method="get" id="formu"> 
+        <div class="cuadro">
+            <p class="cuadros" >Pregunta 1: ¿Quien fue el creador de la bandera argentina?</p>
+            
+            <img src="img/belgrano.jpg" alt="general militar de la argentina" id="belgrano"> 
+           
+            <label class="pregunta"  >  San martin: <input type= "radio" name="p1"  > </label>
+                         
+            <label class="pregunta" >Belgrano: <input type="radio" name="p1"  value="Belgrano" id="res1" > </label>
+                       
+            <label class="pregunta" >Saavedra: <input type="radio" name="p1"  value="Kennedy" ></label>
+        </div>
+       
+        <div class="cuadro">
+            <p class="cuadros">Pregunta 2: ¿En que año nacio el general san martin?</p>
+            
+            <img src="img/san-martin.jpg" alt="general san martin" id="san-martin" class=""> 
+           
+            <label for="anio">AÑO (entre 1700 y 1800):</label>
+            <input type="number" min="1700" max="1800" id="res2">
+        </div>
+
+        <div class="cuadro">
+            <p class="cuadros">Pregunta 3: Ingrese la fecha exacta en la que ocurrio la batalla de caseros.</p>
+            
+            <img src="img/Caseros.jpg" alt="personas luchando en la batalla de caseros" id="caseros"> 
+           
+            <label for="res3">Fecha de la batalla:</label>
+            <input type="date" id="res3"  max="1900-01-01" min="1800-01-02"  >
+        </div>
+
+        <div class="cuadro">
+            <p class="cuadros" >Pregunta 4: Seleccione en que año se sanciono la ley saenz peña.</p>
+            
+            <img src="img/saens-penia.png" alt="escudo nacional de argentina" id="escudo"> 
+           
+            <label for="anio">Seleccione un año:</label>
+
+                <select name="anio" id="anio">
+                    <option value="1910">1910</option>
+                    <option value="1912">1912</option>
+                    <option value="1920">1920</option>
+                    <option value="1925">1925</option>
+                </select>
+        </div>
+
+        <div class="cuadro">
+            <p class="cuadros" >Pregunta 5: ¿Cuando se  inaugura oficialmente la televisión a color en Argentina?</p>
+            
+            <img src="img/canal-7.jpg" alt="Persona masculina arriba de una camara de canal 7" id="canal7"> 
+           
+            <label class="pregunta"  >  1 de mayo 1980: <input type= "radio" name="p5"  > </label>
+                         
+            <label class="pregunta" > 1 de enero de 1978: <input type="radio" name="p5"   id="res5" > </label>
+                       
+            <label class="pregunta" > 20 de julio de 1982 <input type="radio" name="p6"   ></label>
+        </div>
+        
+        <input type="button" name=submitbutton  id="submi" value="Chequear resultado">
+        <input type="reset" id="restablecer" >
+               
+    </form>
+   
+  <div id="resultado">
+
+    <p id="1">  </p>
+    <p id="2">  </p>
+    <p id="3">  </p>
+    <p id="4">  </p>
+    <p id="5">  </p>
+    <p id="nota">  </p>
+  </div>
+ 
+    <script  src="programa1.js"></script>
+</body>
+</html>

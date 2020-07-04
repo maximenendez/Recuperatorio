@@ -1,0 +1,138 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-family:  cursive;
+    background-color: rgb(224, 224, 224);
+    margin-block-end: 10vmin;
+}
+body{
+    background-color: cadetblue;
+}
+
+div#cuadr{
+    text-align: center;
+    
+    background-image: url(img/argentina.jpg);
+    background-size: 600px ;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    margin-block-end: 10vmin;
+
+    border-radius: 100px;
+    border: black solid 10px;
+    
+}
+a#link{
+    color: #000;
+    border: black solid 10px;
+    padding: 20px  ;
+    text-decoration: none;
+    border-radius: 100px;
+
+}
+
+h2#cuadro{
+    text-align: center;
+    font-size: 35px;
+   
+    
+}
+h3#enunciado{
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+}
+div#cuestio{
+   text-align: center;
+   
+}
+button#cuest{
+    font-family: "montserrat";
+    font-size: 20px;
+    color:#3498db;
+    
+}
+form#formu{
+    text-align: center;
+    bottom: 0;
+    left: 0;
+   
+    right: 0;
+    top: 0;
+}
+
+input#submi{
+
+    font-family: "montserrat";
+    font-size: 20px;
+    color:#3498db;
+    margin-right:30px ;
+}
+input#restablecer{
+
+    font-family: "montserrat";
+    font-size: 20px;
+    color:#3498db;
+}
+
+div.cuadro{
+    
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: fantasy;
+    border-radius: 100px;
+    border: black solid 10px;
+    margin-block-end: 10vmin;
+
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    
+      
+    
+   
+}
+
+label.pregunta{
+     
+    display: block;    
+   /* margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+}
+
+img{
+    border-radius: 60px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.cuadros{
+    padding: 15px;
+    
+}
+
+
+
+
+
+div#resultado{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: fantasy;
+    border-radius: 100px;
+    border: black solid 10px;
+    margin-block-end: 10vmin;
+    display: block; 
+}
